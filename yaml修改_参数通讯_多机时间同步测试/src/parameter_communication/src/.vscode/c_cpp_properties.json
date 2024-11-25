@@ -1,0 +1,49 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/zfl/0aros2learning/test/install/custom_interface_pkg/include/**",
+        "/home/zfl/0aros2learning/navigation2/install/smac_planner/include/**",
+        "/home/zfl/0aros2learning/navigation2/install/nav2_controller/include/**",
+        "/home/zfl/0aros2learning/navigation2/install/dwb_plugins/include/**",
+        "/home/zfl/0aros2learning/navigation2/install/dwb_critics/include/**",
+        "/home/zfl/0aros2learning/navigation2/install/dwb_core/include/**",
+        "/home/zfl/0aros2learning/navigation2/install/nav_2d_utils/include/**",
+        "/home/zfl/0aros2learning/navigation2/install/dwb_msgs/include/**",
+        "/home/zfl/0aros2learning/navigation2/install/nav_2d_msgs/include/**",
+        "/home/zfl/0aros2learning/navigation2/install/nav2_waypoint_follower/include/**",
+        "/home/zfl/0aros2learning/navigation2/install/nav2_regulated_pure_pursuit_controller/include/**",
+        "/home/zfl/0aros2learning/navigation2/install/nav2_recoveries/include/**",
+        "/home/zfl/0aros2learning/navigation2/install/nav2_planner/include/**",
+        "/home/zfl/0aros2learning/navigation2/install/nav2_navfn_planner/include/**",
+        "/home/zfl/0aros2learning/navigation2/install/nav2_core/include/**",
+        "/home/zfl/0aros2learning/navigation2/install/costmap_queue/include/**",
+        "/home/zfl/0aros2learning/navigation2/install/nav2_costmap_2d/include/**",
+        "/home/zfl/0aros2learning/navigation2/install/nav2_voxel_grid/include/**",
+        "/home/zfl/0aros2learning/navigation2/install/nav2_rviz_plugins/include/**",
+        "/home/zfl/0aros2learning/navigation2/install/nav2_map_server/include/**",
+        "/home/zfl/0aros2learning/navigation2/install/nav2_lifecycle_manager/include/**",
+        "/home/zfl/0aros2learning/navigation2/install/nav2_bt_navigator/include/**",
+        "/home/zfl/0aros2learning/navigation2/install/nav2_behavior_tree/include/**",
+        "/home/zfl/0aros2learning/navigation2/install/nav2_amcl/include/**",
+        "/home/zfl/0aros2learning/navigation2/install/nav2_util/include/**",
+        "/home/zfl/0aros2learning/navigation2/install/nav2_msgs/include/**",
+        "/home/zfl/Sensors_driver/livox_ros2/ws_livox/install/livox_ros_driver2/include/**",
+        "/opt/ros/foxy/include/**",
+        "/home/zfl/0aros2learning/test/src/custom_interface_pkg/include/**",
+        "/home/zfl/0aros2learning/test/src/parameter_communication/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

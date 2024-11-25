@@ -1,0 +1,31 @@
+<package format="3">
+    <name>learning_tf2</name>
+    <description>Learning_tf2</description>
+    <maintainer email="you@email.com">Your Name</maintainer>
+    <version>0.0.0</version>
+    <license>Apache License 2.0</license>
+
+
+    <buildtool_depend>ament_cmake</buildtool_depend>
+    <exec_depend>launch</exec_depend>
+    <exec_depend>launch_ros</exec_depend>
+      <!-- ZFLadd -->
+    <exec_depend>rclpy</exec_depend>
+
+    <depend>message_filters</depend>
+    <depend>tf2_geometry_msgs</depend>
+    
+    <depend>rclcpp</depend>
+    <depend>turtlesim</depend>
+    <depend>backward_ros</depend>
+    <depend>std_msgs</depend>
+    <depend>geometry_msgs</depend>
+    <depend>tf2</depend>
+    <depend>tf2_ros</depend>
+    <test_depend>ament_lint_auto</test_depend>
+    <test_depend>ament_lint_common</test_depend>
+
+    <export>
+        <build_type>ament_cmake</build_type>
+    </export>
+</package>

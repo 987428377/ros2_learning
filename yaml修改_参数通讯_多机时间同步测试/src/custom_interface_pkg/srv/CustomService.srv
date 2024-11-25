@@ -1,0 +1,6 @@
+int32 request1
+int32 request2
+int32 request3
+---
+int32 response1
+int32 response2

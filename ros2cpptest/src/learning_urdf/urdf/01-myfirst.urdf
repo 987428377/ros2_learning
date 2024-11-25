@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<robot name="myfirst">
+  <link name="base_link">
+    <visual>
+      <geometry>
+        <cylinder length="0.6" radius="0.2"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>
+<!-- 是一个名为 myfirst 的机器人，仅包含one link一个链接（也称为零件），其视觉组件只是一个长 0.6 米、半径 0.2 米的圆柱体。 -->

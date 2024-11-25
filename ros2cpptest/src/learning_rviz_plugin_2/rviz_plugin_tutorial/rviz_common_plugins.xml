@@ -1,0 +1,24 @@
+<!-- 
+这是标准的pluginlib 代码。
+  库路径是我们将在 CMake 中分配的库的名称。
+  该类应与上面的 PLUGINLIB 调用相匹配。 
+  
+  
+  -->
+
+
+<!-- v4 -->
+<!-- <library path="point_display">
+  <class type="rviz_plugin_tutorial::PointDisplay" base_class_type="rviz_common::Display">
+    <description></description>
+  </class>
+</library> -->
+
+
+<!-- v5 -->
+<library path="point_display">
+  <class name="Point2D" type="rviz_plugin_tutorial::PointDisplay" base_class_type="rviz_common::Display">
+    <description>Tutorial to display a point</description>
+    <message_type>rviz_plugin_tutorial_msgs/msg/Point2D</message_type>
+  </class>
+</library>

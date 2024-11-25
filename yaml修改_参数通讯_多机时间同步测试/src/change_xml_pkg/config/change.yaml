@@ -1,0 +1,5 @@
+change_yaml_pkg_node:
+  ros__parameters:
+    global_map_path: "/home/zfl/3DATA/PCDdata/hk0.01.pcd"
+    test: "ADBF"
+
